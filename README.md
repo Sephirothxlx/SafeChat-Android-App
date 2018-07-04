@@ -1,5 +1,13 @@
 # safechat
-这是一个安全通信的app和服务器，服务器使用java写的
-用socket通信
-嗯。。。。
-加密不复杂 用了RSA和AES 但是中间组合比较复杂
+
+This app consists of two parts
+ 
+  -client 
+  
+  -server
+
+if you want to use this app, please import these two parts into proper IDE and compile them.
+
+I use RSA and AES to guaranttee communication security. 
+
+And even if my server were broken into, the hackers still can not get the information of users.
